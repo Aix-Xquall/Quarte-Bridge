@@ -1,0 +1,55 @@
+# Track only active design sources and repository documentation.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/RevK/
+!/verL/
+!/docs/
+
+/RevK/*
+!/RevK/README.md
+!/RevK/*.PrjPcb
+!/RevK/*.SchDoc
+!/RevK/*.PcbDoc
+!/RevK/*.SchLib
+!/RevK/*.PcbLib
+
+/verL/*
+!/verL/README.md
+!/verL/*.PrjPcb
+!/verL/*.SchDoc
+!/verL/*.PcbDoc
+!/verL/*.SchLib
+!/verL/*.PcbLib
+!/verL/connector-harness-pinout.csv
+!/verL/J2-channel-pinout.csv
+
+# Altium generated files and local state
+*.PrjPcbStructure
+*.PrjPcbStructure.*
+*.SchDocPreview
+*.SchLibPreview
+*.PcbDocPreview
+*.PcbLibPreview
+*.bak
+*.BAK
+*.tmp
+*.log
+*.lck
+*.ldb
+~$*
+History/
+__Previews/
+Backups/
+Reports/
+Project Logs for */
+Project Outputs for */
+Project Outputs/
+.venv/
+__pycache__/
+workspace/
+.env
+.DS_Store
+Thumbs.db
+desktop.ini

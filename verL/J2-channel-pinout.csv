@@ -1,0 +1,17 @@
+﻿Channel,S+,S-,P+,PS+,Layer
+1,5,4,6,31,TopLayer
+2,27,2,28,29,BottomLayer
+3,30,53,76,52,TopLayer
+4,77,78,54,55,BottomLayer
+5,79,80,56,57,TopLayer
+6,81,82,58,59,BottomLayer
+7,83,84,60,61,TopLayer
+8,85,86,87,62,BottomLayer
+9,21,22,20,47,TopLayer
+10,51,24,50,49,BottomLayer
+11,48,73,100,74,TopLayer
+12,99,98,72,71,BottomLayer
+13,97,96,70,69,TopLayer
+14,95,94,68,67,BottomLayer
+15,93,92,66,65,TopLayer
+16,91,90,89,64,BottomLayer

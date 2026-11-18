@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-18",
+  "scope": "Repository organization and portable library references; no electrical or PCB geometry edits",
+  "versions": {
+    "RevK": {
+      "compile_success": true,
+      "erc_violations": 0,
+      "schematic_components": 50,
+      "unresolved_footprint_datafiles": 0,
+      "all_models_resolve_within_version_directory": true,
+      "pcb_geometry_matches_original": true,
+      "pcb_source_footprint_library_unpinned": true,
+      "schematic_electrical_and_graphical_records_preserved": true
+    },
+    "verL": {
+      "compile_success": true,
+      "erc_violations": 0,
+      "schematic_components": 56,
+      "unresolved_footprint_datafiles": 0,
+      "all_models_resolve_within_version_directory": true,
+      "pcb_geometry_matches_original": true,
+      "pcb_source_footprint_library_unpinned": true,
+      "schematic_electrical_and_graphical_records_preserved": true
+    }
+  }
+}

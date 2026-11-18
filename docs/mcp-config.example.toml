@@ -1,0 +1,15 @@
+# Reference only: merge into a TOML-based MCP client's settings.
+# Replace YOUR_USER and adjust every path to your own installation.
+# Do not commit your real user-level client configuration.
+
+[mcp_servers.altium]
+command = 'C:\Users\YOUR_USER\AppData\Local\EDA-Agent\.venv\Scripts\python.exe'
+args = ['-m', 'eda_agent', '--no-dashboard']
+startup_timeout_sec = 120
+
+[mcp_servers.altium.env]
+EDA_AGENT_WORKSPACE = 'C:\Users\YOUR_USER\AppData\Local\EDA-Agent\workspace'
+EDA_AGENT_UPDATE_CHECK = '0'
+EDA_AGENT_DISABLE_DASHBOARD = '1'
+PYTHONUTF8 = '1'
+PYTHONIOENCODING = 'utf-8'
